@@ -1,24 +1,24 @@
 # Week 8 Day 2
 
 ## Task
-- [x] String Transformation
+- [x] 1. String Transformation
     - [x] lowercase
     - [x] uppercase
     - [x] capitalize
-- [x] Arithmetic
+- [x] 2. Arithmetic
     - [x] Add Numbers
     - [x] Subtract Numbers
     - [x] Multiply Numbers
     - [x] Divide Numbers
-- [ ] Statistic
-    - [ ] Mean
-    - [ ] Median
-    - [ ] Mode
-    - [ ] fMean
-- [ ] Palindrome
-- [ ] Obfuscator
-- [ ] Random String
-- [ ] Get IP Address
-- [ ] Get External IP Address
-- [ ] Infinite Input
-- [ ] CRUD CLI-Apps
+- [x] 3. Statistic
+    - [x] Mean
+    - [x] Median
+    - [x] Mode
+    - [x] fMean
+- [x] 4. Palindrome
+- [x] 5. Obfuscator
+- [ ] 6. Random String
+- [x] 7. Get IP Address
+- [x] 8. Get External IP Address
+- [ ] 9. Infinite Input
+- [ ] 10. CRUD CLI-Apps

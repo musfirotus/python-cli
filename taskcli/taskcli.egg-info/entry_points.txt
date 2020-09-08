@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        app_cli=taskcli.main:cli
+    
