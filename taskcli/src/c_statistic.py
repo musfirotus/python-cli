@@ -13,37 +13,33 @@ no = "Nomor 3"
 @cli.command(name="mean")
 @click.argument("number", type=click.INT, nargs=-1)
 def mean(number):
-    res = statistics.mean(number)
     print(no)
-    print("Mean Numbers :")
-    print(res)
+    res = statistics.mean(number)
+    print(f"Mean Numbers : {res}")
     
 # Median
 @cli.command(name="median")
 @click.argument("number", type=click.INT, nargs=-1)
 def median(number):
-    res = statistics.mean(number)
     print(no)
-    print("Median of all Numbers :")
-    print(res)
+    res = statistics.mean(number)
+    print(f"Median of all Numbers : {res}")
     
 # Mode
 @cli.command(name="mode")
 @click.argument("number", type=click.INT, nargs=-1)
 def mode(number):
-    res = statistics.mode(number)
     print(no)
-    print("Mode of all Numbers :")
-    print(res)
+    res = statistics.mode(number)
+    print(f"Mode of all Numbers : {res}")
     
 # FMode
 @cli.command(name="fmean")
 @click.argument("number", type=click.INT, nargs=-1)
 def fmean(number):
-    res = statistics.fmean(number)
     print(no)
-    print("FMean Numbers :")
-    print(res)
+    res = statistics.fmean(number)
+    print(f"FMean Numbers : {res}")
     
 if __name__ == "__main__":
     cli()

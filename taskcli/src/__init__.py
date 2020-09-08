@@ -1,24 +1,14 @@
 import click
-# 1
-from src.a_transform import lower_case, upper_case, capitalize
-# 2
-from src.b_arithmetic import adds, subtract, multiply, divide
-# 3
-from src.c_statistic import mean, median, mode, fmean
-# 4
-from src.d_palindrome import palindrome
-# 5
-from src.e_obfuscator import obfuscator
-# 6
-# from src.f_random
-# 7
-from src.g_ip import ip
-# 8
-from src.h_exip import ip_external
-# 9
-# from src.i_inputs
-# 10
-# from src.j_crud
+from src.a_transform import lower_case, upper_case, capitalize # 1
+from src.b_arithmetic import adds, subtract, multiply, divide # 2
+from src.c_statistic import mean, median, mode, fmean # 3
+from src.d_palindrome import palindrome # 4
+from src.e_obfuscator import obfuscator # 5
+from src.f_random import randoms # 6
+from src.g_ip import ip # 7
+from src.h_exip import ip_external # 8
+from src.i_inputs import inputs # 9
+from src.j_crud import crud # 10
 
 @click.group()
 def cli():
@@ -48,6 +38,7 @@ cli.add_command(palindrome)
 cli.add_command(obfuscator)
 
 # Number 6
+cli.add_command(randoms)
 
 # Number 7
 cli.add_command(ip)
@@ -56,8 +47,10 @@ cli.add_command(ip)
 cli.add_command(ip_external)
 
 # Number 9
+cli.add_command(inputs)
 
 # Number 10
+cli.add_command(crud)
 
 if __name__ == '__main__':
     cli()

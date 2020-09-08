@@ -13,7 +13,7 @@ no = "Nomor 7"
 # Get Private IP Address
 @cli.command(name="ip")
 def ip():
-    print(no[6])
+    print(no)
     hostname = socket.gethostname() # getting the hostname by socket.gethostname() method
     ip_address = socket.gethostbyname(hostname) # getting the IP address using socket.gethostbyname() method
     print(f"IP Address: {ip_address}") # printing the ip_address
