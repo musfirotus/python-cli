@@ -4,15 +4,14 @@ import click
 def cli():
     pass
 
-no = ["Nomor 1", "Nomor 2", "Nomor 3", "Nomor 4", "Nomor 5", "Nomor 6", "Nomor 7", "Nomor 8", "Nomor 9", "Nomor 10"]
+no = "Nomor 1"
 
 # Number 1
-
 # Change text to lower case
 @cli.command(name="lower_case")
 @click.argument("value", type=click.STRING)
 def lower_case(value):
-    print(no[0])
+    print(no)
     print("'Lower Text'")
     print(f"Original Value : {value}")
     res = value.lower()
@@ -22,7 +21,7 @@ def lower_case(value):
 @cli.command(name="upper_case")
 @click.argument("value", type=click.STRING)
 def upper_case(value):
-    print(no[0])
+    print(no)
     print("'Upper Text'")
     print(f"Original Value : {value}")
     res = value.upper()
@@ -32,7 +31,7 @@ def upper_case(value):
 @cli.command(name="capitalize")
 @click.argument("value", type=click.STRING)
 def capitalize(value):
-    print(no[0])
+    print(no)
     print("'Capitalize Text'")
     print(f"Original Value : {value}")
     res = value.title()
